@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.local
+
+# Python venv - don't push this, it's huge
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Outputs
+output/
+*.json
+!requirements.txt
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
