@@ -26,7 +26,7 @@ try:
     print(f"Author Found: {user.get('email') if user else 'Fallback'} -> {AUTHOR_ID}")
 except Exception as e:
     print(f"Author lookup failed: {e}")
-    AUTHOR_ID = ObjectId("68aacfbcc8a9cbf6b2c7fbb9a")
+    AUTHOR_ID = ObjectId("6ab4f2465b950a0a736a163d") # Admin id
 
 CATEGORY_IMAGES = {
     "Career Guide": ["https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=800","https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=800"],

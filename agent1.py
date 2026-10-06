@@ -14,7 +14,7 @@ jobs_collection = db["jobs"]
 # ===== YAHAN APNI NAYI COMPANY KA DATA DALO =====
 COMPANY = "ITBS" # Change kar sakte ho: Systems Ltd, 10Pearls, etc
 LOCATION = "Islamabad" # Lahore, Karachi, Remote, Peshawar
-EMPLOYER_ID = ObjectId("6aacfbaab8a9cbf6b2c") # <-- Yahan dusra employer ID
+EMPLOYER_ID = ObjectId("6aacfbaab8a9cbf6b2c7fbb9") # <-- Yahan dusra employer ID
 # =================================================
 
 AUTO_JOBS = [
